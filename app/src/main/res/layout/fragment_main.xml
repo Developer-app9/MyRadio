@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myradio.fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="bottom"
+                android:paddingLeft="30dp"
+                android:text="It's Friday evening"
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="top"
+                android:paddingLeft="30dp"
+                android:text="Play something for..."
+                android:textColor="#A4A4A4"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:id="@+id/container_toprow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"></FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="bottom"
+                android:paddingLeft="30dp"
+                android:text="Recent activity"
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="top"
+                android:paddingLeft="30dp"
+                android:text="Recently played or added"
+                android:textColor="#A4A4A4"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:id="@+id/container_middlerow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"></FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="bottom"
+                android:paddingLeft="30dp"
+                android:text="Rock da party!"
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="top"
+                android:paddingLeft="30dp"
+                android:text="Lit up the floor with electrifying music"
+                android:textColor="#A4A4A4"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:id="@+id/container_bottomrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:paddingLeft="12dp"></FrameLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
